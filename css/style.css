@@ -1,4 +1,109 @@
-body {
+h1,h2,h3,h4,h5,h6,p,body {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
+
+/* Header Section CSS Starts */
+
+#hero {
+    margin: 50px 0px;
+}
+
+.flexible-container {
+    display: flex;
+}
+.left-hero-content {
+    margin-left: 10%;
+    width: 100%;
+    margin-top: 30%;
+}
+.left-hero-content h1 {
+    font-size: 48px;
+    color: #575757;
+}
+.left-hero-content p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #575757;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.left-hero-content a {
+    text-decoration: none;
+    padding: 20px 50px;
+    background-image: linear-gradient(to right, #FBA24F , #FF1E1E);
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.right-hero-content {
+    margin-right: 4%;
+    width: 50%;
+    margin-left: 5%;
+}
+.orange-text {
+    color: #FC8B47;
+}
+
+
+/* Header Section CSS Ends */
+
+
+/* About Section CSS Starts */
+
+.about {
+    padding: 35px 0px;
+    background-image: url(../images/bg_about.png);
+    background-repeat: no-repeat;
+    /* /* background-size: cover;  */
+    background-position-x: right; 
+}
+
+.left-about {
+    width: 50%;
+}
+.left-about img {
+    height: 100%;
+    width: 100%;
+}
+.right-about {
+    width: 40%;
+}
+
+.right-about-content {
+    margin-top: 120px;
+}
+.right-about-content h2 {
+    font-size: 40px;
+    color: #707070;
+
+}
+.right-about-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    letter-spacing: 1px;
+}
+
+.right-about-content a {
+    text-decoration: none;
+    padding: 20px 40px;
+    background-image: linear-gradient(to right, #FBA24F , #FF1E1E);
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+/* About Section CSS Ends */
+
+/* About Section CSS Ends */
+/* About Section CSS Ends */
