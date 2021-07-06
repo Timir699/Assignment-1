@@ -15,12 +15,12 @@ html {
     padding: 20px 0;
 }
 .log {
-    width: 50%;
-}
-.log h2 {
-    font-size: 30px;
-    font-weight: 800;
-    color: #5B5B5B;
+    width: 50%; 
+} 
+.log h2 { 
+    font-size: 30px; 
+    font-weight: 800; 
+    color: #5B5B5B; 
     margin-top: 8px;
 }
 .menu {
@@ -42,7 +42,6 @@ html {
 }
 
 /* Navabar Section CSS Ends */
-
 
 
 /* Header Section CSS Starts */
