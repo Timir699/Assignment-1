@@ -189,6 +189,62 @@ h1,h2,h3,h4,h5,h6,p,body {
 /* Followers Section CSS Ends */
 
 
+/* Food Quality Section CSS Starts */
+
+#food-quality {
+    margin: 50px 0px;
+}
+
+.main-food-quality {
+    margin: 0 5%;
+}
+.left-food-quality-content {
+    width: 50%;
+}
+.left-food-quality-content img {
+    width: 100%;
+    height: auto;
+}
+
+.bar-container {
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.bar-container p{
+    margin-bottom: 2%;
+    font-size: 18px;
+    font-weight: 700;
+} 
+.bar {
+    width: 500px;
+    height: 10px;
+    border : 2px solid #ff6f6f;
+    border-radius: 5px;
+}
+
+.progress {
+    width: 400px;
+    height: 5px;
+    background: #FBA24F;
+    border-radius: 5px;
+    margin-top: 2.5px;
+    margin-left: 3px;
+}
+.w-350 {
+    width: 350px;
+}
+.w-300 {
+    width: 300px;
+}
+.w-450 {
+    width: 450px;
+}
+.w-250 {
+    width: 250px;
+}
+/* Food Quality Section CSS Ends */
+
+
 /* Footer Section CSS Starts */
 
 #footer {
